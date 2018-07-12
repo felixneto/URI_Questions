@@ -30,9 +30,7 @@ public class Question1003 {
     public static void main(String[] args ) {
         Question1003 q = new Question1003();
         q.sc = new Scanner(System.in);
-        System.out.println("Variable a:");
         q.a = q.sc.nextInt();
-        System.out.println("Variable b:");
         q.b = q.sc.nextInt();
         q.calculateSoma();
         System.out.format("SOMA = %d%n",q.soma);

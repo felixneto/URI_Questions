@@ -28,9 +28,7 @@ public class Question1001 {
     public static void main(String[] args ) {
         Question1001 q = new Question1001();
         q.sc = new Scanner(System.in);
-        System.out.println("Variable a:");
         q.a = q.sc.nextInt();
-        System.out.println("Variable b:");
         q.b = q.sc.nextInt();
         
         System.out.format("X = %d%n",q.soma());

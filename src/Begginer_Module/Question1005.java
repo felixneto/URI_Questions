@@ -30,9 +30,7 @@ public class Question1005 {
     public static void main(String[] args ) {
         Question1005 q = new Question1005();
         q.sc = new Scanner(System.in);
-        System.out.println("Grade a:");
         q.a = q.sc.nextDouble();
-        System.out.println("Grade b:");
         q.b = q.sc.nextDouble();
         q.calculateMedia();
         System.out.format("MEDIA = %.5f%n",q.media);

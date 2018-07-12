@@ -28,9 +28,7 @@ public class Question1004 {
     public static void main(String[] args ) {
         Question1004 q = new Question1004();
         q.sc = new Scanner(System.in);
-        System.out.println("Variable a:");
         q.a = q.sc.nextInt();
-        System.out.println("Variable b:");
         q.b = q.sc.nextInt();
         q.calculateProd();
         System.out.format("SOMA = %d%n",q.prod);

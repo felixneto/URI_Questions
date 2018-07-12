@@ -30,7 +30,6 @@ public class Question1002 {
     public static void main(String[] args ) {
         Question1002 q = new Question1002();
         q.sc = new Scanner(System.in);
-        System.out.println("Variable r:");
         q.r = q.sc.nextDouble();
         q.calculateArea();
         System.out.format("A= %.4f%n",q.area);
